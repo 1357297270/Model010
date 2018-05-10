@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.model01.MainActivity">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="420dp"
+    android:background="@drawable/bg"
+    android:id="@+id/img"/>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/but1"
+      android:layout_below="@id/img"
+      android:text="红色"/>
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/but2"
+        android:layout_toRightOf="@id/but1"
+        android:layout_below="@id/img"
+    android:text="蓝色"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/but3"
+        android:layout_toRightOf="@id/but2"
+        android:layout_below="@id/img"
+        android:text="刷子"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/but4"
+        android:layout_toRightOf="@id/but3"
+        android:layout_below="@id/img"
+        android:text="保存"/>
+</RelativeLayout>
